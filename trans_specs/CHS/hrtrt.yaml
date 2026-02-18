@@ -1,0 +1,2053 @@
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001450
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00098771
+        associated_visit:
+          value: CHS BASELINE 2
+          range: string
+        age_at_observation:
+          expr: '{phv00098799} * 365'      
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001450
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00099357} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001450
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00098771
+        associated_visit:
+          value: CHS BASELINE 2
+          range: string
+        age_at_observation:
+          expr: '{phv00098799} * 365'        
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001450
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00099380} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate supine
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001450
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00098771
+        associated_visit:
+          value: CHS BASELINE 2
+          range: string
+        age_at_observation:
+          expr: '{phv00098799} * 365'        
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001450
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00099387} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate standing
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001450
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00098771
+        associated_visit:
+          value: CHS BASELINE 2
+          range: string
+        age_at_observation:
+          expr: '{phv00098799} * 365'       
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001450
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00099427} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate before chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001450
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00098771
+        associated_visit:
+          value: CHS BASELINE 2
+          range: string
+        age_at_observation:
+          expr: '{phv00098799} * 365'    
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001450
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00099429} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate after chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001451
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00099663
+        associated_visit:
+          value: CHS BASELINE 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001451
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00099700
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 60 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001451
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00099663
+        associated_visit:
+          value: CHS BASELINE 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001451
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00100054
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001452
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00100285
+        associated_visit:
+          value: CHS BASELINE BOTH
+          range: string
+        age_at_observation:
+          expr: '{phv00100487} * 365'        
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001452
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00100389} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001452
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00100285
+        associated_visit:
+          value: CHS BASELINE BOTH
+          range: string
+        age_at_observation:
+          expr: '{phv00100487} * 365'           
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001452
+                slot_derivations:
+                  value_decimal:
+                    expr: '{expr: {phv00100396} * 2}'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate supine
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001452
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00100285
+        associated_visit:
+          value: CHS BASELINE BOTH
+          range: string
+        age_at_observation:
+          expr: '{phv00100487} * 365'            
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001452
+                slot_derivations:
+                  value_decimal:
+                    expr: '{expr: {phv00100399} * 2}'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate standing
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001474
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00101324
+        associated_visit:
+          value: CHS YEAR 10
+          range: string
+        age_at_observation:
+          expr: '{phv00102006} * 365'      
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001474
+                slot_derivations:
+                  value_decimal:
+                    expr: '{expr: {phv00101728} * 2}'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate before chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001474
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00101324
+        associated_visit:
+          value: CHS YEAR 10
+          range: string
+        age_at_observation:
+          expr: '{phv00102006} * 365'  
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001474
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00101730} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate after chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001474
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00101324
+        associated_visit:
+          value: CHS YEAR 10
+          range: string
+        age_at_observation:
+          expr: '{phv00102006} * 365'   
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001474
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00101754
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 60 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001474
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00101324
+        associated_visit:
+          value: CHS YEAR 10
+          range: string
+        age_at_observation:
+          expr: '{phv00102006} * 365'    
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001474
+                slot_derivations:
+                  value_decimal:
+                    expr: '{expr: {phv00101773} * 2}'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001474
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00101324
+        associated_visit:
+          value: CHS YEAR 10
+          range: string
+        age_at_observation:
+          expr: '{phv00102006} * 365'
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001474
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00101969
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001475
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00102174
+        associated_visit:
+          value: CHS YEAR 11
+          range: string
+        age_at_observation:
+          expr: '{phv00102583} * 365'
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001475
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00102470} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001475
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00102174
+        associated_visit:
+          value: CHS YEAR 11
+          range: string
+        age_at_observation:
+          expr: '{phv00102583} * 365'   
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001475
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00102497
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 60 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001475
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00102174
+        associated_visit:
+          value: CHS YEAR 11
+          range: string
+        age_at_observation:
+          expr: '{phv00102583} * 365'        
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001475
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00102548} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate before chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001475
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00102174
+        associated_visit:
+          value: CHS YEAR 11
+          range: string
+        age_at_observation:
+          expr: '{phv00102583} * 365'       
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001475
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00102550} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate after chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001475
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00102174
+        associated_visit:
+          value: CHS YEAR 11
+          range: string
+        age_at_observation:
+          expr: '{phv00102583} * 365'     
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001475
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00102591
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001488
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00103781
+        associated_visit:
+          value: CHS YEAR 3
+          range: string        
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001488
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00104009} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001488
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00103781
+        associated_visit:
+          value: CHS YEAR 3
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001488
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00104315
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 60 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001488
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00103781
+        associated_visit:
+          value: CHS YEAR 3
+          range: string         
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001488
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00104326
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001489
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00104468
+        associated_visit:
+          value: CHS YEAR 4
+          range: string
+        age_at_observation:
+          expr: '{phv00104783} * 365'      
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001489
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00104686} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001489
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00104468
+        associated_visit:
+          value: CHS YEAR 4
+          range: string
+        age_at_observation:
+          expr: '{phv00104783} * 365'        
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001489
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00104740} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate before chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001489
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00104468
+        associated_visit:
+          value: CHS YEAR 4
+          range: string
+        age_at_observation:
+          expr: '{phv00104783} * 365'   
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001489
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00104742} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate after chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001489
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00104468
+        associated_visit:
+          value: CHS YEAR 4
+          range: string
+        age_at_observation:
+          expr: '{phv00104783} * 365'      
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001489
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00104964
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 60 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001489
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00104468
+        associated_visit:
+          value: CHS YEAR 4
+          range: string
+        age_at_observation:
+          expr: '{phv00104783} * 365'   
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001489
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00104980
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001490
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00105099
+        associated_visit:
+          value: CHS YEAR 5 NEW
+          range: string
+        age_at_observation:
+          expr: '({phv00105116} * 365) + 1825'    
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001490
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00105423} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001490
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00105099
+        associated_visit:
+          value: CHS YEAR 5 NEW
+          range: string
+        age_at_observation:
+          expr: '({phv00105116} * 365) + 1825' 
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001490
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00105455} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate supine
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001490
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00105099
+        associated_visit:
+          value: CHS YEAR 5 NEW
+          range: string
+        age_at_observation:
+          expr: '({phv00105116} * 365) + 1825'       
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001490
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00105462} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate standing
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001490
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00105099
+        associated_visit:
+          value: CHS YEAR 5 NEW
+          range: string
+        age_at_observation:
+          expr: '({phv00105116} * 365) + 1825'       
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001490
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00105839} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate before chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001490
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00105099
+        associated_visit:
+          value: CHS YEAR 5 NEW
+          range: string
+        age_at_observation:
+          expr: '({phv00105116} * 365) + 1825' 
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001490
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00105841} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate after chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001490
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00105099
+        associated_visit:
+          value: CHS YEAR 5 NEW
+          range: string
+        age_at_observation:
+          expr: '({phv00105116} * 365) + 1825'    
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001490
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00106347
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001490
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00105099
+        associated_visit:
+          value: CHS YEAR 5 NEW
+          range: string
+        age_at_observation:
+          expr: '({phv00105116} * 365) + 1825'
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001490
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00106374
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 60 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001491
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00106520
+        associated_visit:
+          value: CHS YEAR 5 OLD
+          range: string
+        age_at_observation:
+          expr: '{phv00106844} * 365'  
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001491
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00106785} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001491
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00106520
+        associated_visit:
+          value: CHS YEAR 5 OLD
+          range: string
+        age_at_observation:
+          expr: '{phv00106844} * 365'       
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001491
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00106817} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate supine
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001491
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00106520
+        associated_visit:
+          value: CHS YEAR 5 OLD
+          range: string
+        age_at_observation:
+          expr: '{phv00106844} * 365'    
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001491
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00106824} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate standing
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001491
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00106520
+        associated_visit:
+          value: CHS YEAR 5 OLD
+          range: string
+        age_at_observation:
+          expr: '{phv00106844} * 365'    
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001491
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00106963} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate before chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001491
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00106520
+        associated_visit:
+          value: CHS YEAR 5 OLD
+          range: string
+        age_at_observation:
+          expr: '{phv00106844} * 365'       
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001491
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00106965} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate after chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001491
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00106520
+        associated_visit:
+          value: CHS YEAR 5 OLD
+          range: string
+        age_at_observation:
+          expr: '{phv00106844} * 365'    
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001491
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00107286
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001491
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00106520
+        associated_visit:
+          value: CHS YEAR 5 OLD
+          range: string
+        age_at_observation:
+          expr: '{phv00106844} * 365'   
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001491
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00107310
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 60 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001492
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00107443
+        associated_visit:
+          value: CHS YEAR 6
+          range: string
+        age_at_observation:
+          expr: '{phv00107780} * 365'   
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001492
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00107483} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate after chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001492
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00107443
+        associated_visit:
+          value: CHS YEAR 6
+          range: string
+        age_at_observation:
+          expr: '{phv00107780} * 365'   
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001492
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00107485} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate before chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001492
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00107443
+        associated_visit:
+          value: CHS YEAR 6
+          range: string
+        age_at_observation:
+          expr: '{phv00107780} * 365'    
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001492
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00107753} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001492
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00107443
+        associated_visit:
+          value: CHS YEAR 6
+          range: string
+        age_at_observation:
+          expr: '{phv00107780} * 365'   
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001492
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00108162
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001492
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00107443
+        associated_visit:
+          value: CHS YEAR 6
+          range: string
+        age_at_observation:
+          expr: '{phv00107780} * 365' 
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001492
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00108186
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 60 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001493
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00108303
+        associated_visit:
+          value: CHS YEAR 7
+          range: string
+        age_at_observation:
+          expr: '{phv00108813} * 365'
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001493
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00108484} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001493
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00108303
+        associated_visit:
+          value: CHS YEAR 7
+          range: string
+        age_at_observation:
+          expr: '{phv00108813} * 365'  
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001493
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00108516
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 60 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001493
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00108303
+        associated_visit:
+          value: CHS YEAR 7
+          range: string
+        age_at_observation:
+          expr: '{phv00108813} * 365'     
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001493
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00108784
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001493
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00108303
+        associated_visit:
+          value: CHS YEAR 7
+          range: string
+        age_at_observation:
+          expr: '{phv00108813} * 365'
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001493
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00108926
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001494
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00109056
+        associated_visit:
+          value: CHS YEAR 8
+          range: string
+        age_at_observation:
+          expr: '{phv00109604} * 365'
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001494
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00109248
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 60 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001494
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00109056
+        associated_visit:
+          value: CHS YEAR 8
+          range: string
+        age_at_observation:
+          expr: '{phv00109604} * 365'
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001494
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00109303} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate before chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001494
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00109056
+        associated_visit:
+          value: CHS YEAR 8
+          range: string
+        age_at_observation:
+          expr: '{phv00109604} * 365'
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001494
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00109305} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate after chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001494
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00109056
+        associated_visit:
+          value: CHS YEAR 8
+          range: string
+        age_at_observation:
+          expr: '{phv00109604} * 365' 
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001494
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00109315
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001495
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00109768
+        associated_visit:
+          value: CHS YEAR 9
+          range: string
+        age_at_observation:
+          expr: '{phv00109855} * 365'
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001495
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00109861
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001495
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00109768
+        associated_visit:
+          value: CHS YEAR 9
+          range: string
+        age_at_observation:
+          expr: '{phv00109855} * 365'
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001495
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00110268} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001495
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00109768
+        associated_visit:
+          value: CHS YEAR 9
+          range: string
+        age_at_observation:
+          expr: '{phv00109855} * 365'      
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001495
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00110316} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate before chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001495
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00109768
+        associated_visit:
+          value: CHS YEAR 9
+          range: string
+        age_at_observation:
+          expr: '{phv00109855} * 365'        
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001495
+                slot_derivations:
+                  value_decimal:
+                    expr: '{phv00110318} * 2'
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 30 second heart rate after chair stands
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001495
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00109768
+        associated_visit:
+          value: CHS YEAR 9
+          range: string
+        age_at_observation:
+          expr: '{phv00109855} * 365'        
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001495
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00110498
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: 60 second heart rate
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199731
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199734
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199737
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199740
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199743
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199746
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199749
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199752
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199755
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199758
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199761
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199764
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199767
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199770
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199773
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003700
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00198805
+        associated_visit:
+          value: CHS PSG 2
+          range: string
+        observation_type:
+          value: OBA:1001087
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003700
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00199776
+                  unit:
+                    value: '{beats}/min'
+                    range: string
+        method_type:
+          value: average
+          range: string

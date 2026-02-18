@@ -1,0 +1,14 @@
+- class_derivations:
+    Observation:
+      populated_from: pht002239
+      slot_derivations:
+        associated_visit:
+          value: COPDGene
+        associated_participant:
+          populated_from: phv00159568
+        age_at_observation:
+          expr: '{phv00159836} * 365'
+        observation_type:
+          value: OMOP:4282779
+        value_enum:
+          expr: case(({phv00159749} == 1, 'OMOP:40766945'), case({phv00159747} == 1, 'OMOP:45883458'), (True, 'OMOP:45883537'))

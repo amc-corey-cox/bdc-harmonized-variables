@@ -1,0 +1,9 @@
+[project]
+name = "bdc-harmonized-variables"
+version = "0.1.0"
+description = "LinkML-Map transformation specifications for BDC harmonized variables"
+requires-python = ">=3.11"
+dependencies = [
+    "pyyaml>=6.0",
+    "linkml-map>=0.3.9",
+]

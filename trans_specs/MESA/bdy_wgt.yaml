@@ -1,0 +1,306 @@
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001111
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00082638
+        associated_visit:
+          value: MESA_AirNRExamMain
+          range: string
+        age_at_observation:
+          expr: '{phv00082639} * 365'      
+        observation_type:
+          value: OMOP:4099154
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001111
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00082685
+                    unit_conversion:
+                      source_unit: "lbm"
+                      target_unit: "kg"
+                  unit: 
+                    value: kg
+                    range: string                     
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001111
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00082638
+        associated_visit:
+          value: MESA_AirNRExamMain
+          range: string
+        age_at_observation:
+          value: 7300
+          range: integer
+        observation_type:
+          value: OMOP:4099154
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001111
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00083013
+                    unit_conversion:
+                      source_unit: "lbm"
+                      target_unit: "kg"
+                  unit: 
+                    value: kg
+                    range: string                    
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001111
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00082638
+        associated_visit:
+          value: MESA_AirNRExamMain
+          range: string
+        age_at_observation:
+          value: 14600
+          range: integer
+        observation_type:
+          value: OMOP:4099154
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001111
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00083014
+                    unit_conversion:
+                      source_unit: "lbm"
+                      target_unit: "kg"
+                  unit: 
+                    value: kg
+                    range: string                                       
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001116
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00084441
+        associated_visit:
+          value: MESA_Exam1Main
+          range: string
+        observation_type:
+          value: OMOP:4099154
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001116
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00084484
+                    unit_conversion:
+                      source_unit: "lbm"
+                      target_unit: "kg"
+                  unit: 
+                    value: kg
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001116
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00084441
+        associated_visit:
+          value: MESA_Exam1Main
+          range: string
+        age_at_observation:
+          value: 7300
+          range: integer
+        observation_type:
+          value: OMOP:4099154
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001116
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00085249
+                    unit_conversion:
+                      source_unit: "lbm"
+                      target_unit: "kg"
+                  unit: 
+                    value: kg
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001116
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00084441
+        associated_visit:
+          value: MESA_Exam1Main
+          range: string
+        age_at_observation:
+          value: 14600
+          range: integer
+        observation_type:
+          value: OMOP:4099154
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001116
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00085250
+                    unit_conversion:
+                      source_unit: "lbm"
+                      target_unit: "kg"
+                  unit: 
+                    value: kg
+                    range: string                  
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001121
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00087070
+        associated_visit:
+          value: MESA_FamilyExamMain
+          range: string
+        age_at_observation:
+          expr: '{phv00087071} * 365'
+        observation_type:
+          value: OMOP:4099154
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001121
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00087079
+                    unit_conversion:
+                      source_unit: "lbm"
+                      target_unit: "kg"
+                  unit: 
+                    value: kg
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001121
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00087070
+        associated_visit:
+          value: MESA_FamilyExamMain
+          range: string
+        age_at_observation:
+          value: 7300
+          range: integer
+        observation_type:
+          value: OMOP:4099154
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001121
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00087166
+                    unit_conversion:
+                      source_unit: "lbm"
+                      target_unit: "kg"                  
+                  unit:
+                    value: kg
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht001121
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00087070
+        associated_visit:
+          value: MESA_FamilyExamMain
+          range: string
+        age_at_observation:
+          value: 14600
+          range: integer
+        observation_type:
+          value: OMOP:4099154
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht001121
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00087167
+                    unit_conversion:
+                      source_unit: "lbm"
+                      target_unit: "kg"                    
+                  unit:
+                    value: kg
+                    range: string                    
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003086
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00174584
+        associated_visit:
+          value: MESA_AirNRExam5Main
+          range: string
+        age_at_observation:
+          expr: '{phv00174588} * 365'
+        observation_type:
+          value: OMOP:4099154
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003086
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00174637
+                  unit:
+                    value: kg
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht003091
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00176007
+        associated_visit:
+          value: MESA_Exam5Main
+          range: string
+        age_at_observation:
+          expr: '{phv00176011} * 365'
+        observation_type:
+          value: OMOP:4099154
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht003091
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00176060
+                  unit:
+                    value: kg
+                    range: string

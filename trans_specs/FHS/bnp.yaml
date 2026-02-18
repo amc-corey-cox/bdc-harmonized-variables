@@ -1,0 +1,115 @@
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht000393
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00055163
+        associated_visit:
+          name: FHS OFFSPRING EXAM 6
+          range: string
+        age_at_observation:
+          expr: '{pht003099.phv00177940} * 365'
+        observation_type:
+          value: OBA:2045303
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht000393
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00055159
+                  unit:
+                    value: pg/mL
+                    range: string
+        range_low:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht000393
+                slot_derivations:
+                  value_decimal:
+                    value: '4'
+                    range: string
+                  unit:
+                    value: pg/mL
+                    range: string                    
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht006013
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00275427
+        associated_visit:
+          name: FHS OFFSPRING EXAM 5
+          range: string
+        age_at_observation:
+          expr: '{pht003099.phv00177938} * 365'
+        observation_type:
+          value: OBA:2045303
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht006013
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00422396
+                  unit:
+                    value: pg/mL
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht007776
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00369587
+        associated_visit:
+          populated_from: phv00369637
+          value_mappings:
+            '0': FHS ORIGINAL CHF
+            '1': FHS OFFSPRING CHF
+            '2': FHS NEW OFFSPRING SPOUSE CHF
+            '3': FHS GENERATION 3 CHF
+            '7': FHS OMNI 1 CHF
+            '72': FHS OMNI 2 CHF
+        observation_type:
+          value: OBA:2045303
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht007776
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00369624
+                  unit:
+                    value: pg/mL
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht007776
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00369587
+        associated_visit:
+          name: FHS EVENT REVIEW ORIGINAL, OFFSPRING, GENERATION 3, NEW OFFSPRING
+            SPOUSE, OMNI 1, OMNI 2
+          range: string
+        observation_type:
+          value: OBA:2045303
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht007776
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00369625
+                  unit:
+                    value: pg/mL
+                    range: string

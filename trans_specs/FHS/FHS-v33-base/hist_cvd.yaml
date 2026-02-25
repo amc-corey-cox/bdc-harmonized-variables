@@ -1,0 +1,134 @@
+- class_derivations:
+    Condition:
+      populated_from: pht003316
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00190814
+        associated_visit:
+          populated_from: phv00190815
+          value_mappings:
+            '0': FHS ORIGINAL SFS
+            '1': FHS OFFSPRING SFS
+            '2': FHS NEW OFFSPRING SPOUSE SFS
+            '3': FHS GENERATION 3 SFS
+            '7': FHS OMNI 1 SFS
+            '72': FHS OMNI 2 SFS
+        condition_concept:
+          value: MONDO:0005010
+          range: string
+        condition_status:
+          populated_from: phv00190820
+          value_mappings:
+            .: UNKNOWN
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: PATIENT_SELF-REPORTED_CONDITION
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000009
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00001036
+        associated_visit:
+          value: FHS ORIGINAL EXAM 1
+          range: string
+        condition_concept:
+          value: MONDO:0004995
+          range: string
+        condition_status:
+          populated_from: phv00000492
+          value_mappings:
+            '0': ABSENT
+            '1': HISTORICAL
+        condition_provenance:
+          value: PATIENT_SELF-REPORTED_CONDITION
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht005147
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00255463
+        associated_visit:
+          value: FHS OFFSPRING EXAM 8
+          range: string
+        condition_concept:
+          value: MONDO:0004995
+          range: string
+        condition_status:
+          populated_from: phv00256866
+          value_mappings:
+            '0': ABSENT
+            '1': HISTORICAL
+        condition_provenance:
+          value: PATIENT_SELF-REPORTED_CONDITION
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht003316
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00190814
+        associated_visit:
+          populated_from: phv00190815
+          value_mappings:
+            '0': FHS ORIGINAL SFS
+            '1': FHS OFFSPRING SFS
+            '2': FHS NEW OFFSPRING SPOUSE SFS
+            '3': FHS GENERATION 3 SFS
+            '7': FHS OMNI 1 SFS
+            '72': FHS OMNI 2 SFS
+        condition_concept:
+          value: MONDO:0004995
+          range: string
+        condition_status:
+          populated_from: phv00190817
+          value_mappings:
+            '0': ABSENT
+            '1': HISTORICAL
+        condition_provenance:
+          value: PATIENT_SELF-REPORTED_CONDITION
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht003316
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00190814
+        associated_visit:
+          populated_from: phv00190815
+          value_mappings:
+            '0': FHS ORIGINAL SFS
+            '1': FHS OFFSPRING SFS
+            '2': FHS NEW OFFSPRING SPOUSE SFS
+            '3': FHS GENERATION 3 SFS
+            '7': FHS OMNI 1 SFS
+            '72': FHS OMNI 2 SFS
+        condition_concept:
+          value: MONDO:0005009
+          range: string
+        condition_status:
+          populated_from: phv00190816
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: PATIENT_SELF-REPORTED_CONDITION
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string

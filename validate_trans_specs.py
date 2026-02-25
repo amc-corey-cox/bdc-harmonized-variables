@@ -12,14 +12,16 @@ from linkml_runtime.utils.introspection import package_schemaview
 # validation failures so CI stays green while issues are tracked separately.
 # Remove entries as they are fixed.
 KNOWN_ISSUES = {
-    "trans_specs/CHS/afib.yaml": "uses lookup_key (not in linkml-map schema)",
-    "trans_specs/CHS/cac_score.yaml": "uses lookup_key (not in linkml-map schema)",
-    "trans_specs/CHS/carotid_sten_left.yaml": "uses value_mapping instead of value_mappings",
-    "trans_specs/CHS/carotid_sten_right.yaml": "uses value_mapping instead of value_mappings",
-    "trans_specs/COPDGene/visit.yaml": "bare string values in slot_derivations",
-    "trans_specs/FHS/il18.yaml": "empty file (entirely commented out)",
-    "trans_specs/FHS/insulin_in_blood.yaml": "unit field uses dict instead of string",
-    "trans_specs/FHS/pr_qrs_qt.yaml": "bare string values in slot_derivations",
+    "trans_specs/CHS/CHS-v7/afib.yaml": "uses lookup_key (not in linkml-map schema)",
+    "trans_specs/CHS/CHS-v7/cac_score.yaml": "uses lookup_key (not in linkml-map schema)",
+    "trans_specs/CHS/CHS-v7/carotid_sten_left.yaml": "uses value_mapping instead of value_mappings",
+    "trans_specs/CHS/CHS-v7/carotid_sten_right.yaml": "uses value_mapping instead of value_mappings",
+    "trans_specs/COPDGene/COPDGene-v6/visit.yaml": "bare string values in slot_derivations",
+    "trans_specs/FHS/FHS-v33-base/il18.yaml": "empty file (entirely commented out)",
+    "trans_specs/FHS/FHS-v33-base/pr_qrs_qt.yaml": "bare string values in slot_derivations",
+    "trans_specs/FHS/FHS-v33/il18.yaml": "empty file (entirely commented out)",
+    "trans_specs/FHS/FHS-v33/insulin_in_blood.yaml": "unit field uses dict instead of string",
+    "trans_specs/FHS/FHS-v33/pr_qrs_qt.yaml": "bare string values in slot_derivations",
 }
 
 

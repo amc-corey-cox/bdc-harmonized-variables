@@ -1,0 +1,74 @@
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht000031
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00008379
+        associated_visit:
+          value: FHS OFFSPRING EXAM 2
+          range: string
+        observation_type:
+          value: OBA:VT0002607
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht000031
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00008120
+                  unit:
+                    value: 10*3/uL
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht002889
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00172159
+        associated_visit:
+          populated_from: phv00172160
+          value_mappings:
+            '2': FHS NEW OFFSPRING SPOUSE EXAM 2
+            '3': FHS GENERATION 3 EXAM 2
+            '72': FHS OMNI 2 EXAM 2
+        observation_type:
+          value: OBA:VT0002607
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht002889
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00172197
+                  unit:
+                    value: 10*3/uL
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht004802
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00227023
+        associated_visit:
+          populated_from: phv00227024
+          value_mappings:
+            '1': FHS OFFSPRING EXAM 9
+            '7': FHS OMNI 1 EXAM 4
+        observation_type:
+          value: OBA:VT0002607
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht004802
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00227044
+                  unit:
+                    value: 10*3/uL
+                    range: string

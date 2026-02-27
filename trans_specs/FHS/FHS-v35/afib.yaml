@@ -1,0 +1,510 @@
+- class_derivations:
+    Condition:
+      populated_from: pht000012
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00001558
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00001558}) + ":FHS ORIGINAL EXAM 10")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00001339
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000013
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00001803
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00001803}) + ":FHS ORIGINAL EXAM 11")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00001725
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000014
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00002020
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00002020}) + ":FHS ORIGINAL EXAM 12")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00001990
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000015
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00002204
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00002204}) + ":FHS ORIGINAL EXAM 13")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00002170
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000016
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00002425
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00002425}) + ":FHS ORIGINAL EXAM 14")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00002365
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000017
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00002668
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00002668}) + ":FHS ORIGINAL EXAM 15")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00002605
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000018
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00002946
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00002946}) + ":FHS ORIGINAL EXAM 16")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00002811
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000018
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00002946
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00002946}) + ":FHS ORIGINAL EXAM 16")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00002916
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000019
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00003261
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00003261}) + ":FHS ORIGINAL EXAM 17")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00003193
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000020
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00003667
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00003667}) + ":FHS ORIGINAL EXAM 18")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00003608
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000021
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00004083
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00004083}) + ":FHS ORIGINAL EXAM 19")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00004014
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000022
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00004525
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00004525}) + ":FHS ORIGINAL EXAM 20")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00004438
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000030
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00007675
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00007675}) + ":FHS OFFSPRING EXAM 1")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00007660
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: PATIENT_SELF-REPORTED_CONDITION
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000031
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00008378
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00008378}) + ":FHS OFFSPRING EXAM 2")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00007901
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000031
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00008378
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00008378}) + ":FHS OFFSPRING EXAM 2")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00008130
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000032
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00008742
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00008742}) + ":FHS OFFSPRING EXAM 3")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00008646
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000033
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00009127
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00009127}) + ":FHS OFFSPRING EXAM 4")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00009042
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000074
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00021427
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00021427}) + ":FHS GENERATION 3 EXAM 1")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00021037
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+            '2': UNKNOWN
+        condition_provenance:
+          value: PATIENT_SELF-REPORTED_CONDITION
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000747
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00072044
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00072044}) + ":FHS OFFSPRING EXAM 8")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00072165
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+            '2': UNKNOWN
+        condition_provenance:
+          value: PATIENT_SELF-REPORTED_CONDITION
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000747
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00072044
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00072044}) + ":FHS OFFSPRING EXAM 8")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00072166
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+            '2': UNKNOWN
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht006005
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00273700
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00273700}) + ":FHS NEW OFFSPRING SPOUSE EXAM 1")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00273871
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+            '2': UNKNOWN
+        condition_provenance:
+          value: PATIENT_SELF-REPORTED_CONDITION
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht006018
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00276803
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00276803}) + ":" + case(({phv00276845} == ''0'', ''FHS ORIGINAL CHF''), ({phv00276845} == ''1'', ''FHS OFFSPRING CHF''), ({phv00276845} == ''2'', ''FHS NEW OFFSPRING CHF''), ({phv00276845} == ''3'', ''FHS GENERATION 3 CHF''), ({phv00276845} == ''7'', ''FHS OMNI 1 CHF''), ({phv00276845} == ''72'', ''FHS OMNI 2 CHF'')))'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00276820
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string
+- class_derivations:
+    Condition:
+      populated_from: pht000012
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00001558
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00001558}) + ":FHS ORIGINAL EXAM 10")'
+        condition_concept:
+          value: MONDO:0004981
+          range: string
+        condition_status:
+          populated_from: phv00001534
+          value_mappings:
+            '0': ABSENT
+            '1': PRESENT
+        condition_provenance:
+          value: CLINICAL_DIAGNOSIS
+          range: string
+        relationship_to_participant:
+          value: ONESELF
+          range: string

@@ -26,6 +26,7 @@ Each cohort directory contains one or more data version subdirectories named `<C
 | COPDGene | phs000179 | v6 | `COPDGene/COPDGene-v6/` | 36 |
 | FHS | phs000007 | v33 | `FHS/FHS-v33-base/` | 124 |
 | FHS | phs000007 | v33 | `FHS/FHS-v33/` | 124 |
+| FHS | phs000007 | v35 | `FHS/FHS-v35/` | 124 |
 | HCHS/SOL | phs000810 | v2 | `HCHS/HCHS-v2/` | 60 |
 | JHS | phs000286 | v7 | `JHS/JHS-v7/` | 31 |
 | MESA | phs000209 | v13 | `MESA/MESA-v13/` | 103 |
@@ -34,7 +35,8 @@ Each cohort directory contains one or more data version subdirectories named `<C
 ### FHS Variants
 
 - **`FHS/FHS-v33-base/`** — Exact upstream v1.0.0 baseline (no longitudinal additions). Used as a reference and for testing.
-- **`FHS/FHS-v33/`** — Enriched version with `visit.yaml`, `person.yaml`, `age_at_*` fields, and expression fixes.
+- **`FHS/FHS-v33/`** — Enriched v33 with `visit.yaml`, `person.yaml`, `age_at_*` fields, and expression fixes.
+- **`FHS/FHS-v35/`** — Upstream v35 with uuid5 longitudinal identifiers, updated PHV fields, and bug fixes.
 
 ## Versioning
 

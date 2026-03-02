@@ -1,0 +1,48 @@
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht000395
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00056635
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00056635}) + ":" + case(({phv00056607} == ''1'', ''FHS OFFSPRING SHHS EXAM 1''), ({phv00056607} == ''7'', ''FHS OMNI 1 SHHS EXAM 1'')))'
+        age_at_observation:
+          expr: '{pht003099.phv00177930} * 365'
+        observation_type:
+          value: OBA:2045455
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht000395
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00056588
+                  unit:
+                    value: kg/m2
+                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht000397
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00057982
+        associated_visit:
+          expr: 'uuid5("https://w3id.org/bdchm/Visit", str({phv00057982}) + ":" + case(({phv00057968} == ''1'', ''FHS OFFSPRING SHHS 2''), ({phv00057968} == ''7'', ''FHS OMNI 1 SHHS 2'')))'
+        age_at_observation:
+          expr: '{phv00056723} * 365'
+        observation_type:
+          value: OBA:2045455
+          range: string
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht000397
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00056833
+                  unit:
+                    value: kg/m2
+                    range: string

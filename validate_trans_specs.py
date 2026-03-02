@@ -22,6 +22,8 @@ KNOWN_ISSUES = {
     "trans_specs/FHS/FHS-v33/il18.yaml": "empty file (entirely commented out)",
     "trans_specs/FHS/FHS-v33/insulin_in_blood.yaml": "unit field uses dict instead of string",
     "trans_specs/FHS/FHS-v33/pr_qrs_qt.yaml": "bare string values in slot_derivations",
+    "trans_specs/FHS/FHS-v35/il18.yaml": "empty file (entirely commented out)",
+    "trans_specs/FHS/FHS-v35/pr_qrs_qt.yaml": "nested MeasurementObservation not permitted in schema",
 }
 
 

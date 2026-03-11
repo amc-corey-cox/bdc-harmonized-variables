@@ -12,8 +12,6 @@ from linkml_runtime.utils.introspection import package_schemaview
 # validation failures so CI stays green while issues are tracked separately.
 # Remove entries as they are fixed.
 KNOWN_ISSUES = {
-    "trans_specs/CHS/CHS-v7/afib.yaml": "uses lookup_key (not in linkml-map schema)",
-    "trans_specs/CHS/CHS-v7/cac_score.yaml": "uses lookup_key (not in linkml-map schema)",
     "trans_specs/CHS/CHS-v7/carotid_sten_left.yaml": "uses value_mapping instead of value_mappings",
     "trans_specs/CHS/CHS-v7/carotid_sten_right.yaml": "uses value_mapping instead of value_mappings",
     "trans_specs/COPDGene/COPDGene-v6/visit.yaml": "bare string values in slot_derivations",

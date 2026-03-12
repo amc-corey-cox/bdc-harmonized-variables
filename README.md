@@ -102,7 +102,9 @@ Files from the stata/Python pipeline had systematic bugs that were fixed on impo
 
 ## Versioning
 
-This repo uses [CalVer](https://calver.org/) with the format `YYYY.MM` (e.g., `2026.02`). Tags are applied to releases on `main`.
+This repo uses [CalVer](https://calver.org/) with the format `YYYY.MM-N` (e.g., `2026.03-1`). The `YYYY.MM` portion is the date of the release content and `-N` is a sequence number for multiple releases within the same month. Tags are applied to validated releases on `main`.
+
+Release candidates use the suffix `-rcN` (e.g., `2026.03-2-rc1`) for testing against dependent repos. RC tags are transient and deleted once the final tag is created.
 
 ## Validation
 

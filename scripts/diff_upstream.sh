@@ -9,13 +9,13 @@ LOCAL_SPECS="$REPO_ROOT/trans_specs"
 
 # Cohort → upstream -ingest folder mapping
 # Our local version dirs map to <COHORT>-ingest/ upstream.
-# FHS-v33-base is the exact upstream baseline; v33/v35 have local enrichments.
+# FHS-v35 is our active version compared against upstream.
 declare -A COHORT_MAP=(
     ["ARIC/ARIC-v8"]="ARIC-ingest"
     ["CARDIA/CARDIA-v3"]="CARDIA-ingest"
     ["CHS/CHS-v7"]="CHS-ingest"
     ["COPDGene/COPDGene-v6"]="COPDGene-ingest"
-    ["FHS/FHS-v33-base"]="FHS-ingest"
+    ["FHS/FHS-v35"]="FHS-ingest"
     ["HCHS/HCHS-v2"]="HCHS-ingest"
     ["JHS/JHS-v7"]="JHS-ingest"
     ["MESA/MESA-v13"]="MESA-ingest"

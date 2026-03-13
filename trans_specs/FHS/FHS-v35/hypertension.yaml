@@ -17,8 +17,11 @@
         condition_provenance:
           value: CLINICAL_DIAGNOSIS
           range: string
+        associated_evidence:
+          value: Medical History
+          range: string
         relationship_to_participant:
-          value: SELF
+          value: ONESELF
           range: string
 - class_derivations:
     Condition:
@@ -39,8 +42,11 @@
         condition_provenance:
           value: CLINICAL_DIAGNOSIS
           range: string
+        associated_evidence:
+          value: Medical History
+          range: string
         relationship_to_participant:
-          value: SELF
+          value: ONESELF
           range: string
 - class_derivations:
     Condition:
@@ -62,8 +68,11 @@
         condition_provenance:
           value: CLINICAL_DIAGNOSIS
           range: string
+        associated_evidence:
+          value: Clinical Diagnostic Impression
+          range: string
         relationship_to_participant:
-          value: SELF
+          value: ONESELF
           range: string
 - class_derivations:
     Condition:
@@ -85,8 +94,11 @@
         condition_provenance:
           value: CLINICAL_DIAGNOSIS
           range: string
+        associated_evidence:
+          value: Clinical Diagnostic Impression
+          range: string
         relationship_to_participant:
-          value: SELF
+          value: ONESELF
           range: string
 - class_derivations:
     Condition:
@@ -110,8 +122,11 @@
         condition_provenance:
           value: CLINICAL_DIAGNOSIS
           range: string
+        associated_evidence:
+          value: Clinical Diagnostic Impression
+          range: string
         relationship_to_participant:
-          value: SELF
+          value: ONESELF
           range: string
 - class_derivations:
     Condition:
@@ -133,8 +148,11 @@
         condition_provenance:
           value: CLINICAL_DIAGNOSIS
           range: string
+        associated_evidence:
+          value: Clinical Diagnostic Impression
+          range: string
         relationship_to_participant:
-          value: SELF
+          value: ONESELF
           range: string
 - class_derivations:
     Condition:
@@ -158,8 +176,11 @@
         condition_provenance:
           value: CLINICAL_DIAGNOSIS
           range: string
+        associated_evidence:
+          value: Medical History
+          range: string
         relationship_to_participant:
-          value: SELF
+          value: ONESELF
           range: string
 - class_derivations:
     Condition:
@@ -180,8 +201,11 @@
         condition_provenance:
           value: CLINICAL_DIAGNOSIS
           range: string
+        associated_evidence:
+          value: Medical History
+          range: string
         relationship_to_participant:
-          value: SELF
+          value: ONESELF
           range: string
 - class_derivations:
     Condition:
@@ -203,8 +227,11 @@
         condition_provenance:
           value: CLINICAL_DIAGNOSIS
           range: string
+        associated_evidence:
+          value: Clinical Diagnostic Impression
+          range: string
         relationship_to_participant:
-          value: SELF
+          value: ONESELF
           range: string
 - class_derivations:
     Condition:
@@ -226,7 +253,7 @@
           value: CLINICAL_DIAGNOSIS
           range: string
         relationship_to_participant:
-          value: SELF
+          value: ONESELF
           range: string
 - class_derivations:
     Condition:
@@ -248,8 +275,11 @@
         condition_provenance:
           value: CLINICAL_DIAGNOSIS
           range: string
+        associated_evidence:
+          value: Clinical Diagnostic Impression
+          range: string
         relationship_to_participant:
-          value: SELF
+          value: ONESELF
           range: string
 - class_derivations:
     Condition:
@@ -271,8 +301,11 @@
         condition_provenance:
           value: SELF_DIAGNOSIS
           range: string
+        associated_evidence:
+          value: Awareness of Coronary Factors Questionnaire
+          range: string
         relationship_to_participant:
-          value: SELF
+          value: ONESELF
           range: string
 - class_derivations:
     Condition:
@@ -293,6 +326,9 @@
         condition_provenance:
           value: SELF_DIAGNOSIS
           range: string
+        associated_evidence:
+          value: Awareness of Coronary Factors Questionnaire
+          range: string
         relationship_to_participant:
-          value: SELF
+          value: ONESELF
           range: string

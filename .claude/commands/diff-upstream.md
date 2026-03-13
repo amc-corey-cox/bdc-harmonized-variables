@@ -1,4 +1,4 @@
-Run `scripts/diff_upstream.sh` from the repo root (not from a worktree — the `.tmp/` cache lives in the main clone) and summarize the results.
+Run `scripts/diff_upstream.sh` and summarize the results. The script clones upstream to `.tmp/` relative to the repo root it's run from.
 
 If there are modified files, highlight what changed. If there are upstream-only files we're missing, flag those. If everything is identical, say so.
 

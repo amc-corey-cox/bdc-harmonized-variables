@@ -34,15 +34,16 @@ Options:
   -h, --help     Show this help
 
 Arguments:
-  COHORT         One or more cohort keys to compare (e.g., ARIC MESA)
+  COHORT         One or more cohort names or full keys (e.g., ARIC or ARIC/ARIC-v8)
                  Default: all cohorts
 
 Available cohort keys: ${!COHORT_MAP[*]}
 
 Examples:
-  $(basename "$0")              # Summary of all cohorts
-  $(basename "$0") -f CARDIA    # Full diff for CARDIA only
-  $(basename "$0") -r           # Re-clone upstream, then summarize all
+  $(basename "$0")                    # Summary of all cohorts
+  $(basename "$0") -f CARDIA          # Full diff for CARDIA
+  $(basename "$0") -f CARDIA/CARDIA-v3  # Same, using full key
+  $(basename "$0") -r                 # Re-clone upstream, then summarize all
 EOF
 }
 
@@ -75,6 +76,23 @@ else
     git -C "$CLONE_DIR" reset --hard origin/main --quiet
     echo ""
 fi
+
+# Resolve short cohort names (e.g., "ARIC" → "ARIC/ARIC-v8")
+for i in "${!COHORTS[@]}"; do
+    key="${COHORTS[$i]}"
+    if [[ -z "${COHORT_MAP[$key]:-}" ]]; then
+        match=""
+        for full_key in "${!COHORT_MAP[@]}"; do
+            if [[ "$full_key" == "$key/"* ]]; then
+                match="$full_key"
+                break
+            fi
+        done
+        if [[ -n "$match" ]]; then
+            COHORTS[$i]="$match"
+        fi
+    fi
+done
 
 # If no cohorts specified, do all
 if [[ ${#COHORTS[@]} -eq 0 ]]; then
@@ -133,7 +151,7 @@ for cohort_key in "${COHORTS[@]}"; do
             modified_files+=("$filename")
             if [[ "$FULL_DIFF" == true ]]; then
                 echo "--- $cohort_key/$filename"
-                diff -u "$remote_file" "$local_file" --label "upstream/$upstream_dir/$filename" --label "local/$cohort_key/$filename" || true
+                diff -u -L "upstream/$upstream_dir/$filename" -L "local/$cohort_key/$filename" "$remote_file" "$local_file" || true
                 echo ""
             fi
         fi

@@ -63,8 +63,8 @@
           value: MONDO:0004979
           range: string
         condition_status:
-          expr: case(({phv00400910} == N, ABSENT),({phv00400910} == U, UNKNOWN),({phv00400911}
-            == Y, PRESENT), ({phv00400911} == U, UNKNOWN),(True, HISTORICAL))
+          expr: case(({phv00400910} == "N", ABSENT),({phv00400910} == "U", UNKNOWN),({phv00400911}
+            == "Y", PRESENT), ({phv00400911} == "U", UNKNOWN),(True, HISTORICAL))
         condition_provenance:
           value: CLINICAL_DIAGNOSIS
         relationship_to_participant:

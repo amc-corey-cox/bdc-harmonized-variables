@@ -6,8 +6,8 @@
           populated_from: phv00203875
         associated_visit:
           value: ARIC EXAM 1
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
+        # age_at_observation:
+          # expr: "{nan} * 365"
         observation_type:
           value: OBA:VT0002668
         value_quantity:
@@ -22,36 +22,14 @@
                     value: "mmol/L"
 - class_derivations:
     MeasurementObservation:
-      populated_from: pht004052
-      slot_derivations:
-        associated_participant:
-          populated_from: phv00203886
-        associated_visit:
-          value: ARIC EXAM 2
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
-        observation_type:
-          value: OBA:VT0002668
-        value_quantity:
-          object_derivations:
-          - class_derivations:
-              Quantity:
-                populated_from: pht004052
-                slot_derivations:
-                  value_decimal:
-                    populated_from: phv00203881
-                  unit:
-                    value: "mmol/L"
-- class_derivations:
-    MeasurementObservation:
       populated_from: pht012851
       slot_derivations:
         associated_participant:
           populated_from: phv00519771
         associated_visit:
           value: ARIC EXAM 1
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
+        # age_at_observation:
+          # expr: "{nan} * 365"
         observation_type:
           value: OBA:VT0002668
         value_quantity:
@@ -72,8 +50,8 @@
           populated_from: phv00506928
         associated_visit:
           value: ARIC CHEM 2
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
+        # age_at_observation:
+          # expr: "{nan} * 365"
         observation_type:
           value: OBA:VT0002668
         value_quantity:
@@ -84,5 +62,27 @@
                 slot_derivations:
                   value_decimal:
                     populated_from: phv00507115
+                  unit:
+                    value: "mmol/L"
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht004052
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00203886
+        associated_visit:
+          value: ARIC EXAM 2
+        # age_at_observation:
+          # expr: "{nan} * 365"
+        observation_type:
+          value: OBA:VT0002668
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht004052
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00203881
                   unit:
                     value: "mmol/L"

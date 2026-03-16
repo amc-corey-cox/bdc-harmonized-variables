@@ -1,57 +1,13 @@
 - class_derivations:
     MeasurementObservation:
-      populated_from: pht012503
-      slot_derivations:
-        associated_participant:
-          populated_from: phv00506928
-        associated_visit:
-          value: ARIC CHEM 2
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
-        observation_type:
-          value: OBA:2052375
-        value_quantity:
-          object_derivations:
-          - class_derivations:
-              Quantity:
-                populated_from: pht012503
-                slot_derivations:
-                  value_decimal:
-                    populated_from: phv00507076
-                  unit:
-                    value: "mg/L"
-- class_derivations:
-    MeasurementObservation:
       populated_from: pht012853
       slot_derivations:
         associated_participant:
           populated_from: phv00519789
         associated_visit:
           value: ARIC COHORT
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
-        observation_type:
-          value: OBA:2052375
-        value_quantity:
-          object_derivations:
-          - class_derivations:
-              Quantity:
-                populated_from: pht012853
-                slot_derivations:
-                  value_decimal:
-                    populated_from: phv00519844
-                  unit:
-                    value: "mg/L"
-- class_derivations:
-    MeasurementObservation:
-      populated_from: pht012853
-      slot_derivations:
-        associated_participant:
-          populated_from: phv00519789
-        associated_visit:
-          value: ARIC COHORT
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
+        # age_at_observation:
+          # expr: "{nan} * 365"
         observation_type:
           value: OBA:2052375
         value_quantity:
@@ -66,14 +22,58 @@
                     value: "mg/L"
 - class_derivations:
     MeasurementObservation:
+      populated_from: pht012853
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00519789
+        associated_visit:
+          value: ARIC COHORT
+        # age_at_observation:
+          # expr: "{nan} * 365"
+        observation_type:
+          value: OBA:2052375
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht012853
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00519843
+                  unit:
+                    value: "mg/L"
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht012853
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00519789
+        associated_visit:
+          value: ARIC COHORT
+        # age_at_observation:
+          # expr: "{nan} * 365"
+        observation_type:
+          value: OBA:2052375
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht012853
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00519844
+                  unit:
+                    value: "mg/L"
+- class_derivations:
+    MeasurementObservation:
       populated_from: pht006428
       slot_derivations:
         associated_participant:
           populated_from: phv00295531
         associated_visit:
           value: ARIC EXAM 5
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
+        # age_at_observation:
+          # expr: "{nan} * 365"
         observation_type:
           value: OBA:2052375
         value_quantity:
@@ -88,23 +88,23 @@
                     value: "mg/L"
 - class_derivations:
     MeasurementObservation:
-      populated_from: pht012853
+      populated_from: pht012503
       slot_derivations:
         associated_participant:
-          populated_from: phv00519789
+          populated_from: phv00506928
         associated_visit:
-          value: ARIC COHORT
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
+          value: ARIC CHEM 2
+        # age_at_observation:
+          # expr: "{nan} * 365"
         observation_type:
           value: OBA:2052375
         value_quantity:
           object_derivations:
           - class_derivations:
               Quantity:
-                populated_from: pht012853
+                populated_from: pht012503
                 slot_derivations:
                   value_decimal:
-                    populated_from: phv00519843
+                    populated_from: phv00507076
                   unit:
                     value: "mg/L"

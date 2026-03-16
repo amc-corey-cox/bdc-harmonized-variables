@@ -1,45 +1,23 @@
 - class_derivations:
     MeasurementObservation:
-      populated_from: pht004053
+      populated_from: pht009477
       slot_derivations:
         associated_participant:
-          populated_from: phv00204295
+          populated_from: phv00419825
         associated_visit:
-          value: ARIC HOSPITAL FORM
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
+          value: ARIC COHORT
+        age_at_observation:
+          expr: "{phv00419796} * 365"
         observation_type:
           value: OBA:2045303
         value_quantity:
           object_derivations:
           - class_derivations:
               Quantity:
-                populated_from: pht004053
+                populated_from: pht009477
                 slot_derivations:
                   value_decimal:
-                    populated_from: phv00204179
-                  unit:
-                    value: "pg/mL"
-- class_derivations:
-    MeasurementObservation:
-      populated_from: pht004102
-      slot_derivations:
-        associated_participant:
-          populated_from: phv00207055
-        associated_visit:
-          value: ARIC HOSPITAL FORM
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
-        observation_type:
-          value: OBA:2045303
-        value_quantity:
-          object_derivations:
-          - class_derivations:
-              Quantity:
-                populated_from: pht004102
-                slot_derivations:
-                  value_decimal:
-                    populated_from: phv00206947
+                    populated_from: phv00419810
                   unit:
                     value: "pg/mL"
 - class_derivations:
@@ -50,8 +28,8 @@
           populated_from: phv00204295
         associated_visit:
           value: ARIC HOSPITAL FORM
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
+        # age_at_observation:
+          # expr: "{nan} * 365"
         observation_type:
           value: OBA:2045303
         value_quantity:
@@ -61,7 +39,7 @@
                 populated_from: pht004053
                 slot_derivations:
                   value_decimal:
-                    populated_from: phv00204184
+                    populated_from: phv00204185
                   unit:
                     value: "pg/mL"
 - class_derivations:
@@ -88,14 +66,58 @@
                     value: "pg/mL"
 - class_derivations:
     MeasurementObservation:
+      populated_from: pht004053
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00204295
+        associated_visit:
+          value: ARIC HOSPITAL FORM
+        # age_at_observation:
+          # expr: "{nan} * 365"
+        observation_type:
+          value: OBA:2045303
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht004053
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00204186
+                  unit:
+                    value: "pg/mL"
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht004053
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00204295
+        associated_visit:
+          value: ARIC HOSPITAL FORM
+        # age_at_observation:
+          # expr: "{nan} * 365"
+        observation_type:
+          value: OBA:2045303
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht004053
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00204184
+                  unit:
+                    value: "pg/mL"
+- class_derivations:
+    MeasurementObservation:
       populated_from: pht004102
       slot_derivations:
         associated_participant:
           populated_from: phv00207055
         associated_visit:
           value: ARIC HOSPITAL FORM
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
+        # age_at_observation:
+          # expr: "{nan} * 365"
         observation_type:
           value: OBA:2045303
         value_quantity:
@@ -116,8 +138,30 @@
           populated_from: phv00207055
         associated_visit:
           value: ARIC HOSPITAL FORM
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
+        # age_at_observation:
+          # expr: "{nan} * 365"
+        observation_type:
+          value: OBA:2045303
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht004102
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00206947
+                  unit:
+                    value: "pg/mL"
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht004102
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00207055
+        associated_visit:
+          value: ARIC HOSPITAL FORM
+        # age_at_observation:
+          # expr: "{nan} * 365"
         observation_type:
           value: OBA:2045303
         value_quantity:
@@ -138,8 +182,8 @@
           populated_from: phv00204295
         associated_visit:
           value: ARIC HOSPITAL FORM
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
+        # age_at_observation:
+          # expr: "{nan} * 365"
         observation_type:
           value: OBA:2045303
         value_quantity:
@@ -149,50 +193,6 @@
                 populated_from: pht004053
                 slot_derivations:
                   value_decimal:
-                    populated_from: phv00204185
-                  unit:
-                    value: "pg/mL"
-- class_derivations:
-    MeasurementObservation:
-      populated_from: pht004053
-      slot_derivations:
-        associated_participant:
-          populated_from: phv00204295
-        associated_visit:
-          value: ARIC HOSPITAL FORM
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
-        observation_type:
-          value: OBA:2045303
-        value_quantity:
-          object_derivations:
-          - class_derivations:
-              Quantity:
-                populated_from: pht004053
-                slot_derivations:
-                  value_decimal:
-                    populated_from: phv00204186
-                  unit:
-                    value: "pg/mL"
-- class_derivations:
-    MeasurementObservation:
-      populated_from: pht009477
-      slot_derivations:
-        associated_participant:
-          populated_from: phv00419825
-        associated_visit:
-          value: ARIC COHORT
-        age_at_observation:
-          expr: "{phv00419796} * 365"
-        observation_type:
-          value: OBA:2045303
-        value_quantity:
-          object_derivations:
-          - class_derivations:
-              Quantity:
-                populated_from: pht009477
-                slot_derivations:
-                  value_decimal:
-                    populated_from: phv00419810
+                    populated_from: phv00204179
                   unit:
                     value: "pg/mL"

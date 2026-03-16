@@ -251,7 +251,7 @@
                   order:
                     value: 1
         vital_status:
-          expr: 'case(({phv00206667} == Y, "OMOP:434489"), ({phv00206678} == Y, "OMOP:434489"))'
+          expr: 'case(({phv00206667} == "Y", "OMOP:434489"), ({phv00206678} == "Y", "OMOP:434489"))'
 - class_derivations:
     Person:
       populated_from: pht004046
@@ -272,7 +272,7 @@
                   order:
                     value: 1
         vital_status:
-          expr: 'case(({phv00203670} == Y, "OMOP:434489"), ({phv00203674} == Y, "OMOP:434489"))'
+          expr: 'case(({phv00203670} == "Y", "OMOP:434489"), ({phv00203674} == "Y", "OMOP:434489"))'
 - class_derivations:
     Person:
       populated_from: pht004049

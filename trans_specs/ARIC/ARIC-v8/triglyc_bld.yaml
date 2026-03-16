@@ -1,13 +1,35 @@
 - class_derivations:
     MeasurementObservation:
+      populated_from: pht004123
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00207667
+        associated_visit:
+          value: ARIC EXAM 3
+        # age_at_observation:
+          # expr: "{nan} * 365"
+        observation_type:
+          value: OBA:VT0002644
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht004123
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00207661
+                  unit:
+                    value: "mg/dL"
+- class_derivations:
+    MeasurementObservation:
       populated_from: pht004121
       slot_derivations:
         associated_participant:
           populated_from: phv00207644
         associated_visit:
           value: ARIC EXAM 1
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
+        # age_at_observation:
+          # expr: "{nan} * 365"
         observation_type:
           value: OBA:VT0002644
         value_quantity:
@@ -22,14 +44,58 @@
                     value: "mg/dL"
 - class_derivations:
     MeasurementObservation:
+      populated_from: pht012511
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00507546
+        associated_visit:
+          value: ARIC EXAM 1
+        # age_at_observation:
+          # expr: "{nan} * 365"
+        observation_type:
+          value: OBA:VT0002644
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht012511
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00507551
+                  unit:
+                    value: "mg/dL"
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht004124
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00207685
+        associated_visit:
+          value: ARIC EXAM 4
+        # age_at_observation:
+          # expr: "{nan} * 365"
+        observation_type:
+          value: OBA:VT0002644
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht004124
+                slot_derivations:
+                  value_decimal:
+                    populated_from: phv00207676
+                  unit:
+                    value: "mg/dL"
+- class_derivations:
+    MeasurementObservation:
       populated_from: pht004122
       slot_derivations:
         associated_participant:
           populated_from: phv00207655
         associated_visit:
           value: ARIC EXAM 2
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
+        # age_at_observation:
+          # expr: "{nan} * 365"
         observation_type:
           value: OBA:VT0002644
         value_quantity:
@@ -50,8 +116,8 @@
           populated_from: phv00296690
         associated_visit:
           value: ARIC EXAM 5
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
+        # age_at_observation:
+          # expr: "{nan} * 365"
         observation_type:
           value: OBA:VT0002644
         value_quantity:
@@ -62,72 +128,6 @@
                 slot_derivations:
                   value_decimal:
                     populated_from: phv00296692
-                  unit:
-                    value: "mg/dL"
-- class_derivations:
-    MeasurementObservation:
-      populated_from: pht004124
-      slot_derivations:
-        associated_participant:
-          populated_from: phv00207685
-        associated_visit:
-          value: ARIC EXAM 4
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
-        observation_type:
-          value: OBA:VT0002644
-        value_quantity:
-          object_derivations:
-          - class_derivations:
-              Quantity:
-                populated_from: pht004124
-                slot_derivations:
-                  value_decimal:
-                    populated_from: phv00207676
-                  unit:
-                    value: "mg/dL"
-- class_derivations:
-    MeasurementObservation:
-      populated_from: pht004123
-      slot_derivations:
-        associated_participant:
-          populated_from: phv00207667
-        associated_visit:
-          value: ARIC EXAM 3
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
-        observation_type:
-          value: OBA:VT0002644
-        value_quantity:
-          object_derivations:
-          - class_derivations:
-              Quantity:
-                populated_from: pht004123
-                slot_derivations:
-                  value_decimal:
-                    populated_from: phv00207661
-                  unit:
-                    value: "mg/dL"
-- class_derivations:
-    MeasurementObservation:
-      populated_from: pht012511
-      slot_derivations:
-        associated_participant:
-          populated_from: phv00507546
-        associated_visit:
-          value: ARIC EXAM 1
-        # age_at_observation: # TODO: {nan} expr placeholder from upstream YAML generator
-        #   expr: {nan} * 365
-        observation_type:
-          value: OBA:VT0002644
-        value_quantity:
-          object_derivations:
-          - class_derivations:
-              Quantity:
-                populated_from: pht012511
-                slot_derivations:
-                  value_decimal:
-                    populated_from: phv00507551
                   unit:
                     value: "mg/dL"
 - class_derivations:
@@ -150,55 +150,6 @@
                 slot_derivations:
                   value_decimal:
                     expr: "{phv00512076} * 88.57"
-                  unit:
-                    value: "mg/dL"
-                    range: string
-- class_derivations:
-    MeasurementObservation:
-      populated_from: pht012815
-      slot_derivations:
-        associated_participant:
-          populated_from: phv00512222
-        associated_visit:
-          value: ARIC EXAM 6
-        age_at_observation:
-          expr: "{phv00512229} * 365"
-        observation_type:
-          value: OBA:VT0002644
-        value_quantity:
-          object_derivations:
-          - class_derivations:
-              Quantity:
-                populated_from: pht012815
-                slot_derivations:
-                  value_decimal:
-                    expr: "{phv00512246} * 88.57"
-                  unit:
-                    value: "mg/dL"
-                    range: string
-- class_derivations:
-    MeasurementObservation:
-      populated_from: pht004064
-      slot_derivations:
-        associated_participant:
-          populated_from: phv00204919
-        associated_visit:
-          value: ARIC EXAM 3
-        age_at_observation:
-          expr: "{phv00204871} * 365"
-        observation_type:
-          value: OBA:VT0002644
-        value_quantity:
-          object_derivations:
-          - class_derivations:
-              Quantity:
-                populated_from: pht004064
-                slot_derivations:
-                  value_decimal:
-                    expr: "{phv00204877} * 88.57"
-                  unit:
-                    value: "mg/dL"
-                    range: string
 - class_derivations:
     MeasurementObservation:
       populated_from: pht012813
@@ -219,9 +170,6 @@
                 slot_derivations:
                   value_decimal:
                     expr: "{phv00511989} * 88.57"
-                  unit:
-                    value: "mg/dL"
-                    range: string
 - class_derivations:
     MeasurementObservation:
       populated_from: pht004063
@@ -242,9 +190,6 @@
                 slot_derivations:
                   value_decimal:
                     expr: "{phv00204738} * 88.57"
-                  unit:
-                    value: "mg/dL"
-                    range: string
 - class_derivations:
     MeasurementObservation:
       populated_from: pht012504
@@ -265,6 +210,43 @@
                 slot_derivations:
                   value_decimal:
                     expr: "{phv00507331} * 88.57"
-                  unit:
-                    value: "mg/dL"
-                    range: string
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht004064
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00204919
+        associated_visit:
+          value: ARIC EXAM 3
+        age_at_observation:
+          expr: "{phv00204871} * 365"
+        observation_type:
+          value: OBA:VT0002644
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht004064
+                slot_derivations:
+                  value_decimal:
+                    expr: "{phv00204877} * 88.57"
+- class_derivations:
+    MeasurementObservation:
+      populated_from: pht012815
+      slot_derivations:
+        associated_participant:
+          populated_from: phv00512222
+        associated_visit:
+          value: ARIC EXAM 6
+        age_at_observation:
+          expr: "{phv00512229} * 365"
+        observation_type:
+          value: OBA:VT0002644
+        value_quantity:
+          object_derivations:
+          - class_derivations:
+              Quantity:
+                populated_from: pht012815
+                slot_derivations:
+                  value_decimal:
+                    expr: "{phv00512246} * 88.57"

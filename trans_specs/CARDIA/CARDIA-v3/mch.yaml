@@ -6,8 +6,10 @@
           populated_from: phv00112654
         associated_visit:
           value: CARDIA YEAR 0
+        # age_at_observation:
+          # expr: "{nan} * 365"
         observation_type:
-          value: OMOP:37393850
+          value: OBA:2045301
         value_quantity:
           object_derivations:
           - class_derivations:
@@ -16,5 +18,9 @@
                 slot_derivations:
                   value_decimal:
                     populated_from: phv00112688
+                    # unit_conversion:
+                    #   source_unit: "g/dL"
+                    #   target_unit: "pg/{cell}"
                   unit:
-                    value: g/dL
+                    value: "pg/{cell}"
+                    range: string
